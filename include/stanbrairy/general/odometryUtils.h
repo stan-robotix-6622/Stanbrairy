@@ -1,3 +1,5 @@
+#pragma once
+
 #include <frc/geometry/Translation2d.h>
 
 #include <units/angle.h>
