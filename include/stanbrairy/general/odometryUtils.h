@@ -7,10 +7,10 @@
 
 namespace stanbrairy
 {
-  namespace odometryUtils
-  {
-    units::degree_t GetAngleToTarget(frc::Translation2d iCurrentTranslation, frc::Translation2d iTargetTranslation);
+	namespace odometryUtils
+	{
+		units::degree_t GetAngleToTarget(frc::Translation2d iCurrentTranslation, frc::Translation2d iTargetTranslation);
 
-    units::meter_t GetDistanceToTarget(frc::Translation2d iCurrentTranslation, frc::Translation2d iTargetTranslation);
-  }
-}
+		units::meter_t GetDistanceToTarget(frc::Translation2d iCurrentTranslation, frc::Translation2d iTargetTranslation);
+	} // namespace odometryUtils
+} // namespace stanbrairy

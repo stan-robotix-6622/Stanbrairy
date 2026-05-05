@@ -1,6 +1,6 @@
-#include "stanbrairy/controller/deadband.h"
-
 #include <frc/MathUtil.h>
+
+#include "stanbrairy/controller/deadband.h"
 
 double stanbrairy::Deadband(double iInput, double iThreshold, bool iSquared)
 {
