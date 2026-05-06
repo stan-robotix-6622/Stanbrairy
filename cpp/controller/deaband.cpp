@@ -1,10 +1,12 @@
-#include <frc/MathUtil.h>
-
 #include "stanbrairy/controller/deadband.h"
 
-double stanbrairy::Deadband(double iInput, double iThreshold, bool iSquared)
+#include <cmath>
+
+#include <frc/MathUtil.h>
+
+double stanbrairy::deadband(double iInput, double iThreshold, bool iSquared)
 {
-	if (abs(iInput) < iThreshold) {
+	if (std::abs(iInput) < iThreshold) {
 		return 0.0;
 	}
 	if (!iSquared) {
