@@ -1,7 +1,5 @@
 #include "stanbrairy/general/pathplannerUtils.h"
 
-#include <iostream>
-
 #include <pathplanner/lib/commands/PathPlannerAuto.h>
 
 frc::Pose2d stanbrairy::pathplannerUtils::getStartingPoseOfAuto(std::string iAutoName)
